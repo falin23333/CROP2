@@ -1,4 +1,4 @@
-streamlit_lottie==0.0.5
+st_lottie
 seaborn==0.13.2
 
 pandas==2.2.2
