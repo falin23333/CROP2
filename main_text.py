@@ -78,13 +78,7 @@ def imprime():
             - **🧪 pesticides_tonnes (Pesticides Used):** A float column representing the amount of pesticides used, measured in tonnes. The use of pesticides can impact crop yield, but excessive use may have environmental and health repercussions.
             - **🌡️ avg_temp (Average Temperature):** This column contains float data representing the average temperature in degrees Celsius for each country during the respective year. Temperature is another significant factor that influences agricultural productivity.
             """)
-            lottie_url = "https://lottie.host/9b1d760a-d152-4817-9a7c-d5dce70d0f96/65tWrCArzp.json"
-            lottie_json = load_lottieurl(lottie_url)
-            st_lottie(lottie_json, height=200)
-
-            lottie_url = "https://lottie.host/d27c410d-c34e-494c-826b-47d37805e1e1/VkSmAWhA8B.json"
-            lottie_json = load_lottieurl(lottie_url)
-            st_lottie(lottie_json, height=400)
+            
 
             
 
