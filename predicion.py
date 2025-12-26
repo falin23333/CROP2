@@ -27,9 +27,9 @@ def prediction(df_train):
             for feature in cat_features:
                 value = st.selectbox(f':blue[{feature}]', df_train[feature].unique(), key=feature)
                 cat_input[feature] = value
-            lottie_url = " https://lottie.host/0caf0142-8476-4755-bef1-4a166b67f6a3/vNFugFbq57.json"
-            lottie_json = load_lottieurl(lottie_url)
-            st_lottie(lottie_json, height=200)
+            #lottie_url = " https://lottie.host/0caf0142-8476-4755-bef1-4a166b67f6a3/vNFugFbq57.json"
+            #lottie_json = load_lottieurl(lottie_url)
+            #st_lottie(lottie_json, height=200)
 
         with right:
             for feature in num_features:
